@@ -1,0 +1,232 @@
+@import url('https://fonts.googleapis.com/css2?family=Arvo:wght@700&family=Montserrat:wght@500;600&family=Playfair+Display:wght@400;700&display=swap');
+
+.ovr-container {
+    display: flex;
+    align-items: center;
+    flex-direction: column; 
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+    position: relative;
+}
+
+.title-container {
+    display: relative;
+    text-align: center;
+    font-family: 'Cambria';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 0px;
+    letter-spacing: 0.015em;
+
+    color: #00573F;
+
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.ovr-content {
+    height: 100%;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    padding: 50px;
+}
+
+.ovr-container .search-content-container{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    height: 200px;
+    width: 100%;
+    text-align: left;
+    background: #00573F;
+    color: white;
+    justify-content: left;
+    font-size: 27px;
+    border-radius: 10px;
+}
+
+.ovr-container .search-content-container p {
+    padding: 10px;
+    margin: 0;
+}
+
+.ovr-container .search-content {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    border-radius: 0 0 10px 10px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #00573F;
+}
+
+.ovr-container .search-result{
+    background-color: rgb(255, 255, 255);
+    color: black;
+    position: relative;
+    height: auto;
+    width: 100%;
+    padding: 20px;
+    text-align: center;
+    
+    border-style: solid;
+    border-width: 1px;
+    border-color: #00573F;
+    border-radius: 10px;
+}
+
+.ovr-container .student-details{
+    width: 100%;
+    height: auto;
+    background-color: white;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #00573F;
+    border-radius: 10px;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: left;
+    padding: 10px;
+}
+
+.search-button {
+    position: relative;
+    border-radius: 5px;
+    width: 100%;
+    height: 40px;
+    font-weight: 700;
+    font-size: 60%;
+    background-color: #198754;
+    color: white;
+    cursor: pointer;
+  }
+  
+    
+/* .ovr-container button:hover {
+    background-color: #157347;
+}  */
+
+.ovr-container .search-field{
+    width: 60%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+}
+
+.name,
+.id,
+.gradeLevel,
+.section,
+.class-time-in,
+.class-time-out{
+    background-color: white;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #00573F;
+    display: flex;
+    justify-content: left;
+    text-align: left;
+    padding-left: 5px;
+    font-family: "Cambria";
+    text-align: center;
+}
+
+.name-id-block{
+    width: 80%;
+    height: 40px;
+    flex-direction: row;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(81, 0, 0);
+}
+
+.name{
+    width: 70%;
+    height: 100%;
+}
+
+.id{
+    width: 30%;
+    height: 100%;
+}
+
+.addtl-info-block{
+    width: 80%;
+    height: 40px;
+    flex-direction: row;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(0, 0, 0);
+}
+
+.gradeLevel,
+.section{
+    width: 20%;
+    height: 100%;
+}
+
+.class-time-in,
+.class-time-out{
+    width: 30%;
+    height: 100%;
+}
+
+.reason-input{
+    width: 100%;
+    height: 40px;
+    padding: 5px;
+}
+
+.student-details .input-fields-block{
+    text-align: left;
+    
+    width: 80%;
+}
+
+.student-details button {
+    width: 80%;
+    margin-top: 10px;
+    font-size: 1rem;
+}
+.student-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 10px;
+    border-radius:10px;
+    
+}
+
+.student-table th, .student-table td {
+    /* border: 1px solid #ddd; */
+    padding: 8px;
+    text-align: center;
+    
+}
+
+.table th {
+    background-color: #198754;
+    color: #FFFFFF;
+    
+}
+/* table {
+    border-collapse:separate;
+    border:solid black 1px;
+    border-radius:10px;
+    
+} */
+.ovrSelectDate{
+    width: 100px;
+}
+.ovrSelectTime{
+    width: 100%
+}

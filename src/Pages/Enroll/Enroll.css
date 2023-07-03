@@ -1,0 +1,21 @@
+.enroll-container{
+    display: flex;
+    height: 100%;
+    width: 100%;
+}
+.enroll-default{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 1%;
+    height: 100%;
+    width: 100%;
+    flex: 1;
+}
+.enroll-content{
+    display: flex;
+    height: 100%;
+    width: 100%;
+    flex: 1;
+}

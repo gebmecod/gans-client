@@ -1,0 +1,77 @@
+.notifBox {
+  background-color: white;
+  display: flex;
+  height: 100%;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  padding-top: 10%;
+  padding-bottom: 10%;
+}
+
+.notifBox .notif-rectangle {
+  width: 75%;
+  height: fit-content;
+  background: #00573f;
+  border: 3px solid #00573f;
+  border-radius: 10px;
+  font-family: "Cambria";
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 39px;
+}
+
+.notifBox .notif-rectangle p {
+  margin: 1% 0 1% 3%;
+  color: white;
+}
+
+.notifBox .notif-rectangle2 {
+  position: relative;
+  width: 100%;
+  height: fit-content;
+  background: transparent;
+  border-top: 3px solid #00573f;
+}
+
+.notifBox .notif-rectangle3 {
+  width: 100%;
+  padding: 15px 35% 15px 35%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  background-color: white;
+  border-radius: 10px;
+  border-top-right-radius: 0;
+  border-top-left-radius: 0;
+}
+
+.notifBox .notif-rectangle3 button {
+  padding: 10px;
+  height: 100%;
+  width: 100%;
+  border-radius: 10px;
+  background-color: #198754;
+
+  font-family: "Cambria";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.5rem;
+  line-height: 38px;
+
+  color: #ffffff;
+}
+
+.notifBox .notif-rectangle3 button:hover {
+  background-color: #157347;
+}
+
+
+@media (max-width: 650px) {
+
+  .notifBox .notif-rectangle3 {
+    padding: 15px 10% 15px 10%;
+  }
+
+}

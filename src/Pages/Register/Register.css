@@ -1,0 +1,124 @@
+   #register-page {
+    background-image: url(../../Assets/UP\ ADMIN\ red\ gray\ 1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: top,center;
+    font-family: "Cambria";
+  }
+  
+  .register-content {
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .register-container {
+    position: relative;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    flex: 1;
+  }
+  
+  .register-form-container {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    border-style: none solid solid solid;
+    border-color: black;
+    border-width: 1px;
+    background-image: linear-gradient(#ffb81e, white);
+  }
+  
+  .register-form-container2 {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+  }
+  
+  .registerForm {
+    position: relative;
+    width: 70%;
+  }
+  
+  .registerForm label {
+    position: relative;
+    display: flex;
+    padding-top: 5px;
+  }
+  
+  .register-input-container {
+    position: relative;
+    background-color: #FFB81E;
+    display: flex;
+    align-items: center;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 10px;
+    height: fit-content;
+  }
+  
+  .register-input-icons {
+    display: flex;
+    justify-content: center;
+    height: fit-content;
+    width: 10%;
+  }
+  
+  .registerForm input, select {
+    position: relative;
+    padding: 2%;
+    height: fit-content;
+    width: 100%;
+    border-width: 1px;
+    border-radius: 0 8px 8px 0;
+    font-family: Arial;
+    font-size: 1em;
+    background-color: #d9d9d9;
+  }
+  
+  .register-button {
+    background-color: white;
+    position: relative;
+    height: fit-content;
+    width: 100%;
+    margin-top: 8%;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .register-button button {
+    background-color: #ffb81e;
+    height: 100%;
+    width: 100%;
+    padding: 1%;
+    font-weight: 700;
+    line-height: 31px;
+    border-width: 1px;
+    border-radius: 9px;
+    cursor: pointer;
+    font-family: "Cambria";
+  }
+  
+  .register-button button:hover {
+    background-color: #ffc954;
+  }
+
+  .FiArrowLeftCircle {
+    margin-right: 3%;
+    margin-left: -3%;
+    margin-top: -1%;
+}

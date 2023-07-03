@@ -1,0 +1,160 @@
+.avatar {
+    width: 20vw;
+    height: 20vw;
+    max-width: 150px;
+    max-height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 4px solid goldenrod;
+    box-shadow: 0 0 0 4px #fff;
+}
+
+.newsidebar-container{
+    height: 100%;
+    width: 15%;
+    background-color: #8E1437;
+}
+
+.newsidebar-content{
+    position: fixed;
+    height: 100%;
+    width: 15%;
+    background-color: #8E1437;
+}
+
+.newsidebar-header{
+    height: fit-content;
+    width: 100%;
+    display: grid;
+    place-items: center;
+    padding: 20px;
+}
+
+.sidebar-list{
+    height: auto;
+    padding: 0;
+    width: 100%;
+}
+
+.sidebar-list .items{
+    width: 100%;
+    height: 60px;
+    padding-left: 7%;
+    list-style-type: none;
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+    color: white;
+    justify-content: center;
+    align-items: center;
+}
+
+.items #icon{
+    flex: 30%;
+    display: grid;
+    place-items: center;
+}
+
+.items #title{
+    flex: 70%;
+}
+
+.sidebar-list .items:hover{
+    cursor: pointer;
+    color: #FFB81E;
+}
+
+.sidebar-list #active{
+    color: #FFB81E;
+}
+
+@media (max-width: 1150px) {
+    
+    .newsidebar-header img{
+        width: 90%;
+    }
+}
+
+@media (max-width: 950px) {
+    
+    .newsidebar-header{
+        height:  fit-content;
+    }
+
+    .newsidebar-header img{
+        width: 90%;
+    }
+
+    .sidebar-list .items{
+        padding-left: 0;
+    }
+
+    .items #title{
+        display: none;
+    }
+
+    .items #icon{
+        justify-content: center;
+    }
+
+}
+
+@media (max-width: 850px) {
+    
+    .newsidebar-header{
+        height: fit-content;
+    }
+
+    .newsidebar-header img{
+        width: 90%;
+    }
+
+}
+
+@media (max-width: 750px) {
+    
+    .sidebar-list .items{
+        height: 43px;
+    }
+
+}
+
+@media (max-width: 550px) {
+    
+    .newsidebar-header {
+        height: fit-content;
+    }
+
+    .newsidebar-header img{
+        width: 90%;
+    }
+
+    .sidebar-list .items{
+        height: 36px;
+    }
+
+}
+
+@media (max-width: 450px) {
+
+    .newsidebar-header {
+        height: fit-content;
+    }
+
+    .sidebar-list .items{
+        height: 25px;
+    }
+
+}
+
+@media (max-width: 350px) {
+
+    .newsidebar-header {
+        height: fit-content;
+    }
+
+    .sidebar-list .items{
+        height: 22px;
+    }
+
+}
